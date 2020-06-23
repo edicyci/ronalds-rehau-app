@@ -107,6 +107,22 @@ font-weight: bold;
     font-size: 20px;
 }
 
+/* showcase3 */
+#showcase3{
+    min-height: 400px;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/Products/prodtot.jpg) no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+
+#showcase3 h2{
+    font-size: 45px;   
+}
+
+#showcase3 p{
+    font-size: 20px;
+}
+
 /* newsletter */
 #newsletter{
     padding: 15px;
@@ -136,6 +152,7 @@ font-weight: bold;
 #boxes{
     margin-top: 20px;
     text-align: center;
+    
 }
 
 #boxes .box{
@@ -143,12 +160,13 @@ font-weight: bold;
     width: 32%;
     padding: 10px;
     text-align: center;
+    
 }
 
 #boxes .box img{
     width: 150px;
     height: 150px;
-    /*border: #8c8c8c 3px solid;*/
+    
 }
 
 footer{
@@ -156,4 +174,9 @@ footer{
     color: #ffffff;
     background: #b0346a;
     border-top: #8c8c8c 3px solid;
+}
+
+.imgcontainer img{
+    width: 370px;
+    height: 240px;
 }
